@@ -1,0 +1,45 @@
+### model
+model_name_or_path: /data/root/submit-image-demo/app/models/Qwen2.5-32B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+
+### dataset
+dataset: Meta-Llama-3.1-405B-Instruct-FP8_sft_fix
+template: qwen
+cutoff_len: 10240
+max_samples: 100000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+# output_dir: saves/round1_train_llama3.1_sft_self/llama3.1-70b/lora/sft
+output_dir: /data/root/submit-image-demo/app/lora_lr_llama31_405b/Qwen2.5-32B-Instruct
+logging_steps: 10
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+# learning_rate: 5.0e-5 # 1e-5: 0.8286 3e-5: 0.7878 4e-5: 0.7817 5e-5: 0.7804  6e-5:7838
+# learning_rate: 6.0e-5 # 1e-5:  3e-5:  4e-5: 0.3208 5e-5: 0.317  6e-5: 0.3166
+learning_rate: 1.0e-4 # 1e-5: 0.36/0.31
+num_train_epochs: 3.5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+fp16: true
+ddp_timeout: 180000000
+lora_rank: 16
+lora_alpha: 32
+flash_attn: auto
+
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 2
+eval_strategy: steps
+eval_steps: 20

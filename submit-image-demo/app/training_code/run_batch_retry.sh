@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 ./miniconda3/envs/vllm/bin/python3 src/batch_vllm_retry.py \
+--model Qwen2.5-32B-Instruct-deepseek,Qwen2.5-32B-Instruct-llama3.1 \
+--model_dir models_quant \
+--answer_name answer  \
+--gpu_memory_utilization 1.0 \
+--tp 1 \
+--retry_total 3 \
+--max_model_len 4096 \
+--input_file /tcdata/round2_test_data.jsonl \
+--temperature 0.7 \
+--top_p 0.8

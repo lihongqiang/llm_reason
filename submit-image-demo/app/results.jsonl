@@ -1,0 +1,1 @@
+{"problem": "有一群人和一些食物类型。下列是关于这些个体和食物的已知信息：\n\n1. 鸡肉是一种食物。\n2. 苹果是一种食物。\n3. 如果X吃了Y，且X活着，则Y是一种食物。\n4. Bill存活。\n5. Bill吃了花生。\n6. John吃所有食物。\n7. Sue吃所有Bill吃的食物。\n8. John喜欢所有食物。\n\n根据以上信息，回答以下选择题：", "questions": [{"question": "选择题 1：\n谁喜欢吃花生？", "options": ["Bill", "Sue", "John", "None of the above"], "answer": "C"}], "id": "round1_test_data_000"}

@@ -1,0 +1,48 @@
+{
+    "instruction": "你是一个逻辑推理专家，擅长复杂的推理和反思。以下是一个单项选择题，所有的问题都是（close-world assumption）闭世界假设，即未观测事实都为假。请逐步分析问题，在<thinking>标签内描述推理过程，在<reflection>标签内检查推理过程是否正确，如果有误及时纠错，在<output>标签内提供你的最终回答。输出格式为:<output>因此答案是：A</output>。题目如下：\n\n        ### 题目:\n        有一个英文到法文的词汇表，包含以下对应词汇：\n\n1. the -> le\n2. cat -> chat\n3. jumps -> sauts\n4. over -> sur\n5. moon -> lune\n6. cow -> vache\n7. plays -> jouer\n8. fiddle -> violon\n9. egg -> bougre\n10. falls -> des chutes\n11. off -> de\n12. wall -> mur\n\n根据这个词汇表，翻译以下英文句子成法文：\n\n        ### 问题:\n        选择题 1：\n英文句子 \"the cat jumps over the moon\" 翻译成法文是：\n        A. le chat saute sur la lune\nB. le chat sauts sur le lune\nC. le sauts chat sur le lune\nD. le chat sauts sur le lune\n        ",
+    "input": "",
+    "output": "",
+    "glm-4-9b-chat": "",
+    "answer": "D",
+    "id": "round1_train_data_000_0"
+},
+{
+    "instruction": "你是一个逻辑推理专家，擅长复杂的推理和反思。以下是一个单项选择题，所有的问题都是（close-world assumption）闭世界假设，即未观测事实都为假。请逐步分析问题，在<thinking>标签内描述推理过程，在<reflection>标签内检查推理过程是否正确，如果有误及时纠错，在<output>标签内提供你的最终回答。输出格式为:<output>因此答案是：A</output>。题目如下：\n\n        ### 题目:\n        有一个英文到法文的词汇表，包含以下对应词汇：\n\n1. the -> le\n2. cat -> chat\n3. jumps -> sauts\n4. over -> sur\n5. moon -> lune\n6. cow -> vache\n7. plays -> jouer\n8. fiddle -> violon\n9. egg -> bougre\n10. falls -> des chutes\n11. off -> de\n12. wall -> mur\n\n根据这个词汇表，翻译以下英文句子成法文：\n\n        ### 问题:\n        选择题 2：\n英文句子 \"the cow plays the fiddle\" 翻译成法文是：\n        A. le vache jouer le violon\nB. le jouer vache le violon\nC. le vache jouer la vièle\nD. la vache joue le violon\n        ",
+    "input": "",
+    "output": "",
+    "glm-4-9b-chat": "",
+    "answer": "A",
+    "id": "round1_train_data_000_1"
+},
+{
+    "instruction": "你是一个逻辑推理专家，擅长复杂的推理和反思。以下是一个单项选择题，所有的问题都是（close-world assumption）闭世界假设，即未观测事实都为假。请逐步分析问题，在<thinking>标签内描述推理过程，在<reflection>标签内检查推理过程是否正确，如果有误及时纠错，在<output>标签内提供你的最终回答。输出格式为:<output>因此答案是：A</output>。题目如下：\n\n        ### 题目:\n        有一个英文到法文的词汇表，包含以下对应词汇：\n\n1. the -> le\n2. cat -> chat\n3. jumps -> sauts\n4. over -> sur\n5. moon -> lune\n6. cow -> vache\n7. plays -> jouer\n8. fiddle -> violon\n9. egg -> bougre\n10. falls -> des chutes\n11. off -> de\n12. wall -> mur\n\n根据这个词汇表，翻译以下英文句子成法文：\n\n        ### 问题:\n        选择题 3：\n英文句子 \"the egg falls off the wall\" 翻译成法文是：\n        A. le bougre des chutes de le mur\nB. le oeuf tombe de le mur\nC. le bougre tomber de le mur\nD. des chutes le bougre de le mur\n        ",
+    "input": "",
+    "output": "",
+    "glm-4-9b-chat": "",
+    "answer": "A",
+    "id": "round1_train_data_000_2"
+},
+{
+    "instruction": "你是一个逻辑推理专家，擅长复杂的推理和反思。以下是一个单项选择题，所有的问题都是（close-world assumption）闭世界假设，即未观测事实都为假。请逐步分析问题，在<thinking>标签内描述推理过程，在<reflection>标签内检查推理过程是否正确，如果有误及时纠错，在<output>标签内提供你的最终回答。输出格式为:<output>因此答案是：A</output>。题目如下：\n\n        ### 题目:\n        有一个英文到法文的词汇表，包含以下对应词汇：\n\n1. the -> le\n2. cat -> chat\n3. jumps -> sauts\n4. over -> sur\n5. moon -> lune\n6. cow -> vache\n7. plays -> jouer\n8. fiddle -> violon\n9. egg -> bougre\n10. falls -> des chutes\n11. off -> de\n12. wall -> mur\n\n根据这个词汇表，翻译以下英文句子成法文：\n\n        ### 问题:\n        选择题 1：\n英文句子 \"the cat jumps over the moon\" 翻译成法文是：\n        A. le chat saute sur la lune\nB. le chat sauts sur le lune\nC. le sauts chat sur le lune\nD. le chat sauts sur le lune\n        ",
+    "input": "",
+    "output": "",
+    "glm-4-9b-chat": "",
+    "answer": "D",
+    "id": "round1_train_data_000_0"
+},
+{
+    "instruction": "你是一个逻辑推理专家，擅长复杂的推理和反思。以下是一个单项选择题，所有的问题都是（close-world assumption）闭世界假设，即未观测事实都为假。请逐步分析问题，在<thinking>标签内描述推理过程，在<reflection>标签内检查推理过程是否正确，如果有误及时纠错，在<output>标签内提供你的最终回答。输出格式为:<output>因此答案是：A</output>。题目如下：\n\n        ### 题目:\n        有一个英文到法文的词汇表，包含以下对应词汇：\n\n1. the -> le\n2. cat -> chat\n3. jumps -> sauts\n4. over -> sur\n5. moon -> lune\n6. cow -> vache\n7. plays -> jouer\n8. fiddle -> violon\n9. egg -> bougre\n10. falls -> des chutes\n11. off -> de\n12. wall -> mur\n\n根据这个词汇表，翻译以下英文句子成法文：\n\n        ### 问题:\n        选择题 2：\n英文句子 \"the cow plays the fiddle\" 翻译成法文是：\n        A. le vache jouer le violon\nB. le jouer vache le violon\nC. le vache jouer la vièle\nD. la vache joue le violon\n        ",
+    "input": "",
+    "output": "",
+    "glm-4-9b-chat": "",
+    "answer": "A",
+    "id": "round1_train_data_000_1"
+},
+{
+    "instruction": "你是一个逻辑推理专家，擅长复杂的推理和反思。以下是一个单项选择题，所有的问题都是（close-world assumption）闭世界假设，即未观测事实都为假。请逐步分析问题，在<thinking>标签内描述推理过程，在<reflection>标签内检查推理过程是否正确，如果有误及时纠错，在<output>标签内提供你的最终回答。输出格式为:<output>因此答案是：A</output>。题目如下：\n\n        ### 题目:\n        有一个英文到法文的词汇表，包含以下对应词汇：\n\n1. the -> le\n2. cat -> chat\n3. jumps -> sauts\n4. over -> sur\n5. moon -> lune\n6. cow -> vache\n7. plays -> jouer\n8. fiddle -> violon\n9. egg -> bougre\n10. falls -> des chutes\n11. off -> de\n12. wall -> mur\n\n根据这个词汇表，翻译以下英文句子成法文：\n\n        ### 问题:\n        选择题 3：\n英文句子 \"the egg falls off the wall\" 翻译成法文是：\n        A. le bougre des chutes de le mur\nB. le oeuf tombe de le mur\nC. le bougre tomber de le mur\nD. des chutes le bougre de le mur\n        ",
+    "input": "",
+    "output": "",
+    "glm-4-9b-chat": "",
+    "answer": "A",
+    "id": "round1_train_data_000_2"
+},
